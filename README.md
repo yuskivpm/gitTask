@@ -14,19 +14,19 @@
 -   переходить на `github.com` і створює `pull request` для злиття даних своєї гілки у **develop**.
 -   самостійно підтверджує `pull request` та вирішує конфлікти, які при цьому можуть виникнути.
 
-<code>
+<pre>
 1. Ініціалізація завдання (робиться один раз)
    1.1. Клонуємо репозиторій на свій комп’ютер
-   `git clone https://github.com/yuskivpm/gitTask.git`
+   git clone https://github.com/yuskivpm/gitTask.git
    1.2. Заходимо у нього
-   `cd gitTask`
-   1.3. З’єднуємось з гілкою **develop**
-   `git checkout -b develop origin/develop`
+   cd gitTask
+   1.3. З’єднуємось з гілкою develop
+   git checkout -b develop origin/develop
    1.4. Скачуємо її оновлення
-   `git pull`
-   1.5. Повертаємось на **master**
-   `git checkout master`
-</code>
+   git pull
+   1.5. Повертаємось на master
+   git checkout master
+</pre>
 
 # Мікс:
 
